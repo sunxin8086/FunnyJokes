@@ -12,7 +12,7 @@ import urllib
 
 class FunnyJokesServer(Daemon):
     def run_daemon(self):
-        run(host='localhost', port=8088, debug=True)
+        run(host='0.0.0.0', port=8088, debug=True)
         
 @route('/')
 def hello():
