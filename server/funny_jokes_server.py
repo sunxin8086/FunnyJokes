@@ -9,6 +9,7 @@ import json
 import re
 import urlparse
 import urllib
+import funny_jokes_v1
 
 class FunnyJokesServer(Daemon):
     def run_daemon(self):

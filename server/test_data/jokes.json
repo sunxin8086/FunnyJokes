@@ -1,0 +1,14 @@
+[
+{
+    "_id": "1",
+    "author": "xinsun",
+    "title": "this is the first joke",
+    "content": "It's very funny"
+},
+{
+    "_id": "2",
+    "author": "fbluemle",
+    "title": "This is the second joke",
+    "content": "It's not very funny"
+}
+]
