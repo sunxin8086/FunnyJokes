@@ -10,5 +10,11 @@
     "author": "fbluemle",
     "title": "This is the second joke",
     "content": "It's not very funny"
+},
+{
+    "_id": "3",
+    "author": "mattmayo",
+    "title": "This is the third joke",
+    "content": "It's not very funny either"
 }
 ]
