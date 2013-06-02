@@ -1,5 +1,4 @@
 #!/usr/bin/python
-from bottle import route, post, get, put, run, request, response, static_file, HTTPError
 from daemon import Daemon
 from wsgiref.util import is_hop_by_hop
 import sys
@@ -9,6 +8,7 @@ import json
 import re
 import urlparse
 import urllib
+sys.path.append('../../eve')
 from eve import Eve
 
 class FunnyJokesEveServer(Daemon):
