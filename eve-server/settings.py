@@ -40,7 +40,7 @@ else:
     MONGO_DBNAME = 'funny_jokes'
 
     # let's not forget the API entry point
-    SERVER_NAME = 'localhost:5001'
+    SERVER_NAME = '198.199.100.186:8888'
 
 
 # Enable reads (GET), inserts (POST) and DELETE for resources/collections
