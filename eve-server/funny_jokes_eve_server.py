@@ -8,14 +8,36 @@ import json
 import re
 import urlparse
 import urllib
-sys.path.append('../../eve')
+import logging
+from logging import FileHandler
+from logging import Formatter
+sys.path.append('../../Python/eve')
 from eve import Eve
 
 class FunnyJokesEveServer(Daemon):
     def run_daemon(self):
         app = Eve()
-        app.run(host='0.0.0.0', port=8888)
-        
+        app.on_get += general_callback
+        app.on_post_joke += post_joke_callback 
+        file_handler = FileHandler('/tmp/funny_jokes_eve_server.log')
+        file_handler.setLevel(logging.INFO)
+        formatter = Formatter(
+        '%(asctime)s %(levelname)s: %(message)s '
+            '[in %(pathname)s:%(lineno)d]')
+        file_handler.setFormatter(formatter)
+        app.logger.addHandler(file_handler)
+        app.run(host='localhost', port=8888)
+        app.logger.warning("Test Loggin")
+
+def general_callback(resource, request, payload):
+    print 'A GET on the "%s" endpoint was just performed!' % resource
+    print payload
+    print request
+
+def post_joke_callback(request, payload):
+    print payload
+    print request
+
 def main():
     """
     Funny Jokes Eve Server is the back end server that supports the Funny Jokes app across all platform. Its built on top of Eve framework 
