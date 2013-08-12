@@ -1,0 +1,19 @@
+{ "_id" : "1", "count" : 3129, "description" : "%$#@", "short_name" : "adu_eng", "language" : "eng", "hidden" : false, "name" : "Adult Jokes" }
+{ "_id" : "10", "count" : 272, "description" : "They speak the truth!", "short_name" : "kid_eng", "language" : "eng", "hidden" : false, "name" : "Kids Jokes" }
+{ "_id" : "11", "count" : 968, "description" : "For motherlovers.", "short_name" : "mom_eng", "language" : "eng", "hidden" : false, "name" : "Yo Momma Jokes" }
+{ "_id" : "12", "count" : 0, "description" : "来自网络的幽默", "short_name" : "net_sch", "language" : "sch", "hidden" : false, "name" : "网络笑话" }
+{ "_id" : "13", "count" : 2748, "description" : "For some quick laughs.", "short_name" : "one_eng", "language" : "eng", "hidden" : false, "name" : "One Liners" }
+{ "_id" : "14", "count" : 100, "description" : "I approve this joke.", "short_name" : "pol_eng", "language" : "eng", "hidden" : false, "name" : "Political Jokes" }
+{ "_id" : "15", "count" : 716, "description" : "You might be a redneck if ...", "short_name" : "red_eng", "language" : "eng", "hidden" : false, "name" : "Redneck Jokes" }
+{ "_id" : "16", "count" : 306, "description" : "jokes with questions", "short_name" : "rid_eng", "language" : "eng", "hidden" : false, "name" : "Riddles" }
+{ "_id" : "17", "count" : 1035, "description" : "Assorted but still funny", "short_name" : "sho_eng", "language" : "eng", "hidden" : false, "name" : "Assorted Jokes" }
+{ "_id" : "18", "count" : 221, "description" : "Things you don't wanna hear.", "short_name" : "sur_eng", "language" : "eng", "hidden" : false, "name" : "Surgery Jokes" }
+{ "_id" : "19", "count" : 1489, "description" : "if you think...", "short_name" : "vot_eng", "language" : "eng", "hidden" : false, "name" : "Thumbs Up" }
+{ "_id" : "2", "count" : 392, "description" : "For pet lovers.", "short_name" : "ani_eng", "language" : "eng", "hidden" : false, "name" : "Animal Jokes" }
+{ "_id" : "3", "count" : 469, "description" : "As opposed awkward moments.", "short_name" : "awe_eng", "language" : "eng", "hidden" : false, "name" : "Awesome Moments" }
+{ "_id" : "4", "count" : 1117, "description" : "Oops", "short_name" : "awk_eng", "language" : "eng", "hidden" : false, "name" : "Awkward Moments" }
+{ "_id" : "5", "count" : 331, "description" : "Drunk people are funny.", "short_name" : "bar_eng", "language" : "eng", "hidden" : false, "name" : "Bar Jokes" }
+{ "_id" : "6", "count" : 458, "description" : "They are hot and funny.", "short_name" : "blo_eng", "language" : "eng", "hidden" : false, "name" : "Blonde Jokes" }
+{ "_id" : "7", "count" : 1425, "description" : "Woo Taa!", "short_name" : "chu_eng", "language" : "eng", "hidden" : false, "name" : "Chuck Norris Facts" }
+{ "_id" : "8", "count" : 619, "description" : "Facts that you better off not knowing.", "short_name" : "dis_eng", "language" : "eng", "hidden" : false, "name" : "Disturbing Facts" }
+{ "_id" : "9", "count" : 144, "description" : "We are family!", "short_name" : "fam_eng", "language" : "eng", "hidden" : false, "name" : "Family Jokes" }
