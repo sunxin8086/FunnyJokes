@@ -54,6 +54,7 @@ URL_PREFIX = 'xinsun'
 # Enable reads (GET), edits (PATCH) and deletes of individual items
 # (defaults to read-only item access).
 ITEM_METHODS = ['GET', 'PATCH', 'DELETE']
+DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
 
 # We enable standard client cache directives for all resources exposed by the
 # API. We can always override these global settings later.
